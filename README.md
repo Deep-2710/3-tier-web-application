@@ -1,5 +1,4 @@
 # 3-tier-web-application
-# 3-Tier Web Application
 
 This repository contains a simple 3-tier web application demonstrating the architecture using Node.js, MySQL, and Apache.
 
