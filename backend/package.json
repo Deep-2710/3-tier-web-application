@@ -1,0 +1,14 @@
+{
+    "name": "3-tier-backend",
+    "version": "1.0.0",
+    "description": "Backend for 3-tier web application",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mysql": "^2.18.1"
+    }
+  }
+  
