@@ -1,9 +1,9 @@
 FROM node:18-alpine
 
-WORKDIR /app
+WORKDIR /usr/src/app
 COPY package.json /app
 RUN npm install
-COPY . /app
-
-EXPOSE 3000
-CMD ["node", "app.js"]
+COPY . .
+RUN npm build
+EXPOSE 80
+CMD ["npm", "start"]
